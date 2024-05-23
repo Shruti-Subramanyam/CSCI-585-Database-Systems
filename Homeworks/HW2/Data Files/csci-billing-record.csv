@@ -1,0 +1,6 @@
+﻿BillingID,PatientID,Insurance Provider ID,Amounts ,Coverage Type
+20001,10001,1100,1000,Dental
+20002,10002,1101,800,Medical
+20003,10003,1102,1200,Dental
+20004,10004,1103,700,Medical
+20005,10005,1104,900,Dental

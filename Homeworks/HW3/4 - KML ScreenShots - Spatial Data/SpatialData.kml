@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Placemark><name>Tropicana</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28801713286317,34.0282433537532</coordinates></Point>
+</Placemark>
+<Folder>
+<name>Location Data</name>
+<Folder>
+<name>USC School of Cinematic Arts</name>
+<Placemark><name>CineArtsMediaPract</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2874793813252,34.024121605373935</coordinates></Point>
+</Placemark>
+<Placemark><name>CineArtsScreenTele</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28652760962723,34.02332142900857</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>USC Annenberg School of Communication and Journalism</name>
+<Placemark><name>AnnCenterPR</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2870175950515,34.02103762815113</coordinates></Point>
+</Placemark>
+<Placemark><name>AnnTechOps</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28717820271102,34.02099382875511</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>Dornsife College of Letters, Arts and Sciences</name>
+<Placemark><name>DornsifeTeaching</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28768492185675,34.021149492035626</coordinates></Point>
+</Placemark>
+<Placemark><name>DornsifeNeurology</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28871858146675,34.02137038126856</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>USC Viterbi School of Engineering</name>
+<Placemark><name>ViterbiAero</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2896769319321,34.02086164437948</coordinates></Point>
+</Placemark>
+<Placemark><name>ViterbiEE</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28988595031649,34.02011340855391</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>USC Thronton School of Music</name>
+<Placemark><name>ThrontonContemporary</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28610346309036,34.02290580360448</coordinates></Point>
+</Placemark>
+<Placemark><name>ThrontonClassical</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2853771720012,34.02261694173428</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>USC Price School of Public Policy</name>
+<Placemark><name>PriceGovenrnance</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28355120452969,34.0194095817662</coordinates></Point>
+</Placemark>
+<Placemark><name>PriceRealEstate</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28335460286428,34.01917392391155</coordinates></Point>
+</Placemark>
+</Folder>
+</Folder>
+<Folder>
+<name>Convex Hull-Polygon</name>
+<Placemark><name>Polygon</name>
+<styleUrl>#z1</styleUrl><Polygon><outerBoundaryIs><LinearRing>
+<coordinates>
+-118.28335460286428,34.01917392391155,0
+-118.28988595031649,34.02011340855391,0
+-118.28801713286317,34.0282433537532,0
+-118.28335460286428,34.01917392391155,0
+</coordinates>
+</LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+</Folder>
+<Folder>
+<name>4 Nearest Neighbours</name>
+<Placemark><name>1st Nearest Neighbour</name>
+<LineString><coordinates>
+-118.28801713286317,34.0282433537532,0
+-118.2874793813252,34.024121605373935,0
+</coordinates></LineString>
+<Style><LineStyle><color>#FF0000FF</color><width>3</width></LineStyle></Style>
+</Placemark>
+<Placemark><name>2nd Nearest Neighbour</name>
+<LineString><coordinates>
+-118.28801713286317,34.0282433537532,0
+-118.28652760962723,34.02332142900857,0
+</coordinates></LineString>
+<Style><LineStyle><color>#FF0000FF</color><width>3</width></LineStyle></Style>
+</Placemark>
+<Placemark><name>3rd Nearest Neighbour</name>
+<LineString><coordinates>
+-118.28801713286317,34.0282433537532,0
+-118.28610346309036,34.02290580360448,0
+</coordinates></LineString>
+<Style><LineStyle><color>#FF0000FF</color><width>3</width></LineStyle></Style>
+</Placemark>
+<Placemark><name>4th Nearest Neighbour</name>
+<LineString><coordinates>
+-118.28801713286317,34.0282433537532,0
+-118.2853771720012,34.02261694173428,0
+</coordinates></LineString>
+<Style><LineStyle><color>#FF0000FF</color><width>3</width></LineStyle></Style>
+</Placemark>
+</Folder>
+</Document></kml>

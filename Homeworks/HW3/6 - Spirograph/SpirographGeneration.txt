@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ </head>
+ <body>
+   <canvas id="canvas" width="300" height="300"></canvas>
+ </body> 
+    <script>
+        var canvas = document.getElementById('canvas');
+        var ctx = canvas.getContext('2d');
+
+        var R=6, r=1, a=8; 
+        // try other vals, eg. 81,11,36 [and be sure to change nRev below]
+
+        var x0=R+r-a, y0=0;
+        ctx.moveTo(150+x0, 150+y0);
+
+        var cos=Math.cos, sin=Math.sin, pi=Math.PI, nRev=100;
+        for(var t=0.0; t<(pi*nRev); t+=0.01){
+          var x = ((R+r)*cos((r/R)*t) - a*cos((1+r/R)*t))*0.002;
+          var y = ((R+r)*sin((r/R)*t) - a*sin((1+r/R)*t))*0.002;
+          var x1 = 34.0205;
+          var y1 = -118.28538;
+          x1 += x;
+          y1 += y;
+          document.write(y1+","+x1+"<br>");
+        }
+  </script>
+</html>
